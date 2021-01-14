@@ -363,3 +363,42 @@
                                                     margin-left: 363px;
                                                     margin-bottom: 20px;
                                                 }
+                                                
+                                                .last-section {
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    flex-direction: column;
+                                                    flex-wrap: wrap;
+                                                    margin: 20px;
+                                                }
+                                                
+                                                .article-version {
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    flex-wrap: wrap;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    font-size: 11px;
+                                                    color: grey;
+                                                }
+                                                
+                                                .special-time {
+                                                    display: flex;
+                                                    align-self: flex-start;
+                                                    margin-left: 354px;
+                                                    margin-bottom: 20px;
+                                                }
+                                                
+                                                .read-comments {
+                                                    display: flex;
+                                                    justify-content: flex-start;
+                                                    background-color: hsla(219, 90%, 23%, 0.643);
+                                                    border: 2px solid rgba(0, 0, 0, 0.315);
+                                                    padding: 7px;
+                                                    width: 170px;
+                                                    border-radius: 3px;
+                                                    color: white;
+                                                    margin: 20px 0 20px 360px;
+                                                    text-align: center;
+                                                }
