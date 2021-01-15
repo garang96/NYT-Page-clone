@@ -560,9 +560,13 @@ aside p {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    width: 80%;
-    margin-left: 100px;
+    width: 90%;
+    margin: 20px 100px 20px 50px;
     top: 405rem;
+    background-color: rgba(255, 248, 220, 0.438);
+    padding: 20px 50px;
+    font-size: 13px;
+    border-radius: 5px;
 }
 
 .footer-list {
