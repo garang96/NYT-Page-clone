@@ -238,8 +238,16 @@ p {
     width: 70%;
     justify-content: space-around;
     height: 150px;
-    font-size: 11px;
+    font-size: 13px;
     margin: 2px 0 20px 250px;
+}
+
+.universe,
+.not-enough,
+.distant-coffee,
+.coffee-everywhere {
+    width: 40%;
+    margin-right: 15px;
 }
 
 .space-items2 {
@@ -272,8 +280,16 @@ p {
     flex-wrap: nowrap;
     width: 70%;
     justify-content: flex-start;
-    font-size: 11px;
+    font-size: 13px;
     margin-left: 250px;
+}
+
+.still-not-enough,
+.inflation2,
+.fluctuation,
+.expansion {
+    width: 40%;
+    margin-right: 15px;
 }
 
 .author2 {
@@ -546,7 +562,7 @@ aside p {
     list-style: none;
     width: 80%;
     margin-left: 100px;
-    top: 410rem;
+    top: 405rem;
 }
 
 .footer-list {
