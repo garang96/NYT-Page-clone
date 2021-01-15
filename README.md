@@ -10,7 +10,7 @@ This is an article that was posted on a New York Times Page on March 17th 2014.
 
 ## Live Demo
 
-[NYT-Clone]()
+[NYT-Clone](https://rawcdn.githack.com/garang96/NYT-Page-clone/edit/Article-clone/index.html)
 
 ## Authors
 
