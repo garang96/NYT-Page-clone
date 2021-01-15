@@ -8,7 +8,7 @@
 body {
     margin: 20px;
     background-color: white;
-    font-family: Helvetica, sans-serif;
+    font-family: "Helvetica neue", sans-serif;
     font-size: 16px;
 }
 
@@ -59,7 +59,7 @@ a {
 .right-nav2 {
     position: absolute;
     right: 2rem;
-    bottom: .9rem;
+    bottom: 0.9rem;
     width: 100px;
     height: 20px;
 }
@@ -172,22 +172,14 @@ p {
     margin: 20px 0 20px 375px;
 }
 
-.reaching-back-section {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 20px
-}
-
+.reaching-back-section,
 .gets-bigger-section {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 20px
+    margin: 20px;
 }
 
 #gets-bigger {
@@ -220,7 +212,7 @@ p {
     flex-wrap: nowrap;
     width: 70%;
     margin-left: 250px;
-    justify-content: flex-s
+    justify-content: flex-start;
 }
 
 #the-universe-img {
@@ -562,7 +554,7 @@ aside p {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 150%;
+    width: 90%;
     margin: 20px 30px 0 60px;
     border-bottom: 1px solid black;
     padding: 20px;
