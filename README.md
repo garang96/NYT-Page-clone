@@ -1,10 +1,8 @@
-<<<<<<< HEAD
-=======
 # HTML & CSS: New York Times - clone
 
 This is an article that was posted on a New York Times Page on March 17th 2014.
 
-![screenshot] <img src="">
+![screenshot] <img src="C:/Users/USER/Article-clone/NYT-Page-clone/.github/workflows/images/screencapture-127-0-0-1-5503-index-html-2021-01-15-00_00_41.png">
 ## Built With
 
 - HTML
@@ -20,4 +18,3 @@ This is an article that was posted on a New York Times Page on March 17th 2014.
 
 - Github: [@garang96](https://github.com/garang96)
 
->>>>>>> 077db56c3504156568ea7b859aa2a373cacdd1d5
