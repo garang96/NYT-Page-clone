@@ -1,6 +1,6 @@
 # HTML & CSS: New York Times - clone
 
-> This is a copy of a specific article featured in The New York Times on March 17 2014.
+This is an article that was posted on a New York Times Page on March 17th 2014.
 
 ![screenshot] <img src="">
 ## Built With
