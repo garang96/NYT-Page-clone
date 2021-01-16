@@ -530,7 +530,6 @@ aside p {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
     list-style: none;
     width: 70%;
     margin: 20px 100px 20px 150px;
