@@ -462,121 +462,93 @@ aside p {
 
 .space-features {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     margin-top: 100px;
+    flex-wrap: wrap;
 }
 
 .space-feature1 {
     width: 230px;
-    margin: 0 20px 100px 0;
 }
 
 .space-feature2 {
     width: 230px;
-    margin: 0 20px 100px 0;
-    position: relative;
-    right: 17rem;
 }
 
 .space-feature3 {
     width: 230px;
-    margin: 0 20px 100px 0;
-    position: relative;
-    bottom: 15.8rem;
-    left: 18rem;
 }
 
 .space-feature4 {
     width: 230px;
-    margin: 0 10px 100px 0;
-    position: relative;
-    bottom: 13rem;
 }
 
 .space-feature5 {
     width: 230px;
-    margin: 0 10px 100px 0;
-    position: relative;
-    bottom: 13rem;
-    right: 14rem;
 }
 
 .space-feature6 {
     width: 230px;
-    margin: 0 10px 20px 0;
-    position: relative;
-    bottom: 28.6rem;
-    left: 18rem;
 }
 
-.sync-calender {
+.mars-mission-div {
     position: relative;
-    top: 10rem;
-    right: 18rem;
-    margin: 20px;
-    width: 30%;
-}
-
-.mars-mission {
-    position: relative;
-    bottom: 5rem;
+    bottom: 21.7rem;
     left: 17rem;
-    width: 30%;
 }
 
-.dropped-call {
+.dropped-call-div {
     position: relative;
-    bottom: 5rem;
-    left: 3rem;
-    width: 30%;
+    bottom: 43.4rem;
+    left: 33rem;
 }
 
-.neptune-spot {
+.neptune-spot-div {
     position: relative;
-    bottom: 5rem;
-    width: 30%;
-    right: 15rem;
+    bottom: 23.85rem;
+    right: 2.7rem;
 }
 
-.moon-rocks {
+.moon-rocks-div {
     position: relative;
-    bottom: 20.5rem;
-    left: 15rem;
-    width: 30%;
+    bottom: 45.5rem;
 }
 
-.mission-training {
+.mission-training-div {
     position: relative;
-    bottom: 20.5rem;
-    left: 1rem;
-    width: 30%;
+    bottom: 67rem;
+    left: 31.3rem;
 }
 
 .footer-aside {
-    position: absolute;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     list-style: none;
-    width: 90%;
-    margin: 20px 100px 20px 50px;
-    top: 405rem;
-    background-color: rgba(255, 248, 220, 0.438);
+    width: 70%;
+    margin: 20px 100px 20px 150px;
     padding: 20px 50px;
     font-size: 13px;
     border-radius: 5px;
+    height: 500px;
+    position: relative;
+    bottom: 65rem;
 }
 
 .footer-list {
-    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 90%;
     margin: 20px 30px 0 60px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.445);
     padding: 20px;
     font-size: 11px;
+    position: relative;
+    bottom: 65rem;
+}
+
+ul li {
+    list-style: none;
+    text-decoration: none;
 }
