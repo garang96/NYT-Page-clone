@@ -2,11 +2,7 @@
 
 This is an article that was posted on a New York Times Page on March 17th 2014.
 
-<<<<<<< HEAD
-![screenshot]<img src=".github/workflows/images//screencapture-127-0-0-1-5503-index-html-2021-01-16-07_51_50.png">
-=======
 ![screenshot](<img src="https://github.com/garang96/NYT-Page-clone/issues/2#issuecomment-761590216">)
->>>>>>> 78085035e789bcbc213b6e78b70dc0773135ba15
 
 ## Built With
 
