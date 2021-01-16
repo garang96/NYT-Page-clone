@@ -2,5 +2,9 @@
     "liveServer.settings.port": 5503,
     "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.detectIndentation": false
+    "editor.detectIndentation": false,
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.autoIndent": "none"
 }

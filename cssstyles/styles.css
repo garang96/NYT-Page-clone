@@ -15,8 +15,7 @@ body {
 nav {
     display: flex;
     flex-direction: row;
-    background-color: beige;
-    justify-content: space-around;
+    background-color: white;
     align-items: center;
     position: fixed;
     top: 0;
@@ -25,11 +24,13 @@ nav {
     padding: 20px;
     left: 0;
     font-size: 14px;
+    justify-content: space-around;
 }
 
-a {
+
+/*a {
     text-decoration: none;
-}
+}*/
 
 .logo {
     color: rgba(0, 0, 0, 0.795);
@@ -62,6 +63,12 @@ a {
     bottom: 0.9rem;
     width: 100px;
     height: 20px;
+}
+
+.left-text {
+    position: relative;
+    top: 1rem;
+    left: 3rem
 }
 
 .left-nav1 {
@@ -421,7 +428,7 @@ iframe {
 
 aside a {
     color: rgba(0, 0, 0, 0.788);
-    margin-right: 20px;
+    margin-right: 5px;
     line-height: 30px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.267);
 }
@@ -516,10 +523,10 @@ aside p {
 .mission-training-div {
     position: relative;
     bottom: 67rem;
-    left: 31.3rem;
+    left: 31.6rem;
 }
 
-.footer-aside {
+.footer-div {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -533,6 +540,8 @@ aside p {
     height: 500px;
     position: relative;
     bottom: 65rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.192);
+    align-items: baseline;
 }
 
 .footer-list {
@@ -545,10 +554,10 @@ aside p {
     padding: 20px;
     font-size: 11px;
     position: relative;
-    bottom: 65rem;
+    bottom: 80rem;
 }
 
-ul li {
-    list-style: none;
+a {
     text-decoration: none;
+    color: black;
 }
