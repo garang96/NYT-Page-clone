@@ -184,7 +184,8 @@ p {
   align-items: center;
   margin: 20px;
 }
-.reaching-back-section{
+
+.reaching-back-section {
   margin-left: 6rem;
 }
 
@@ -413,7 +414,6 @@ iframe {
   flex-direction: column;
   margin: 20px 0;
   width: 28%;
-
 }
 
 a {
@@ -462,8 +462,9 @@ aside .most-popular {
 .space-feature6 {
   width: 300px;
 }
-.space-feature{
-margin-bottom: 20px;
+
+.space-feature {
+  margin-bottom: 20px;
 }
 
 .footer-logo {
