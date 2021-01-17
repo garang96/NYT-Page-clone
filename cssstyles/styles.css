@@ -170,8 +170,10 @@ p {
 .free-articles {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    margin: 20px 0 20px 375px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
 }
 
 .reaching-back-section,
@@ -179,15 +181,13 @@ p {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     margin: 20px;
 }
 
 #gets-bigger {
-    align-self: flex-start;
-    margin-left: 346px;
-    margin-bottom: 20px;
+    margin-right: 26.5rem;
 }
 
 .inflation-evidence {
@@ -212,9 +212,8 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    width: 70%;
-    margin-left: 250px;
-    justify-content: flex-start;
+    margin: 0 10rem 0 10rem;
+    justify-content: space-around;
 }
 
 #the-universe-img {
@@ -237,11 +236,9 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    width: 70%;
     justify-content: space-around;
-    height: 150px;
     font-size: 13px;
-    margin: 2px 0 20px 250px;
+    margin: 0 10rem 0 10rem;
 }
 
 .universe,
@@ -256,8 +253,9 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: flex-start;
-    margin-left: 250px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 10rem 0 10rem;
 }
 
 #time-img {
@@ -280,10 +278,9 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    width: 70%;
-    justify-content: flex-start;
+    justify-content: center;
     font-size: 13px;
-    margin-left: 250px;
+    margin: 0 10rem 0 10rem;
 }
 
 .still-not-enough,
@@ -368,10 +365,7 @@ iframe {
 }
 
 .sky-spirals {
-    display: flex;
-    align-self: flex-start;
-    margin-left: 363px;
-    margin-bottom: 20px;
+    margin-right: 27rem;
 }
 
 .last-section {
@@ -394,10 +388,7 @@ iframe {
 }
 
 .special-time {
-    display: flex;
-    align-self: flex-start;
-    margin-left: 354px;
-    margin-bottom: 20px;
+    margin-right: 27rem;
 }
 
 .read-comments {
@@ -419,6 +410,7 @@ iframe {
     display: flex;
     flex-direction: column;
     margin-top: 60px;
+    margin-bottom: 50px;
 }
 
 a {
@@ -428,9 +420,10 @@ a {
 
 aside a {
     color: rgba(0, 0, 0, 0.788);
-    margin-right: 5px;
+    margin-right: 125px;
     line-height: 30px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.267);
+    margin-bottom: 50px;
 }
 
 aside p {
@@ -444,86 +437,60 @@ aside p {
 }
 
 .editors-pick {
-    position: absolute;
-    top: 50rem;
-    right: 50px;
+    float: right;
+    clear: right;
     display: flex;
     flex-direction: column;
+    margin-right: 200px;
 }
 
 .editors-pick1 {
     width: 200px;
-    margin: 0 10px 0 10px;
 }
 
 .editors-pick2 {
     width: 200px;
-    margin: 10px 0;
+    margin-top: 20px;
 }
 
 .editors-pick3 {
     width: 200px;
-    float: right;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .space-features {
-    display: flex;
+    display: inline-block;
     margin-top: 100px;
-    flex-wrap: wrap;
 }
 
 .space-feature1 {
-    width: 230px;
+    width: 300px;
 }
 
 .space-feature2 {
-    width: 230px;
+    width: 300px;
 }
 
 .space-feature3 {
-    width: 230px;
+    width: 300px;
 }
 
 .space-feature4 {
-    width: 230px;
+    width: 300px;
 }
 
 .space-feature5 {
-    width: 230px;
+    width: 300px;
 }
 
 .space-feature6 {
-    width: 230px;
+    width: 300px;
 }
 
-.mars-mission-div {
-    position: relative;
-    bottom: 21.7rem;
-    left: 17rem;
-}
-
-.dropped-call-div {
-    position: relative;
-    bottom: 43.4rem;
-    left: 33rem;
-}
-
-.neptune-spot-div {
-    position: relative;
-    bottom: 23.85rem;
-    right: 2.7rem;
-}
-
-.moon-rocks-div {
-    position: relative;
-    bottom: 45.5rem;
-}
-
-.mission-training-div {
-    position: relative;
-    bottom: 67rem;
-    left: 31.6rem;
+.footer-logo {
+    margin-left: 14rem;
+    border-top: 3px double rgba(0, 0, 0, 0.192);
+    padding-top: 20px;
 }
 
 .footer-div {
@@ -532,14 +499,11 @@ aside p {
     justify-content: space-around;
     list-style: none;
     width: 70%;
-    margin: 20px 100px 20px 150px;
+    margin: 2px 100px 20px 150px;
     padding: 20px 50px;
     font-size: 13px;
     border-radius: 5px;
-    height: 500px;
-    position: relative;
-    bottom: 65rem;
-    border-top: 1px solid rgba(0, 0, 0, 0.192);
+    height: 260px;
     align-items: baseline;
 }
 
@@ -552,6 +516,4 @@ aside p {
     border-bottom: 1px solid rgba(0, 0, 0, 0.445);
     padding: 20px;
     font-size: 11px;
-    position: relative;
-    bottom: 80rem;
 }
