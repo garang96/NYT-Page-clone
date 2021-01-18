@@ -2,7 +2,7 @@
 
 This is an article that was posted on a New York Times Page on March 17th 2014.
 
-![screenshot](./images/screencapture-127-0-0-1-5503-index-html-2021-01-17-22_37_05.png)
+![screenshot](./images/screencapture-127-0-0-1-5503-index-html-2021-01-18-00_15_27.png)
 
 ## Built With
 

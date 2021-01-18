@@ -174,7 +174,7 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-left: 10rem;
+  margin-left: 9rem;
 }
 
 .gets-bigger-section {
@@ -190,7 +190,7 @@ p {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  margin-left: 10rem;
+  margin-left: 9rem;
   margin-top: 10px;
 }
 
@@ -443,31 +443,34 @@ aside .most-popular {
 
 .editors-pick {
   float: right;
-  margin-top: 150px;
+  margin-top: 30rem;
+  width: 22%;
+  margin-right: 5%;
 }
 
 .editors-pick1 {
-  width: 150px;
+  width: 140px;
   margin-top: 20px;
 }
 
 .editors-pick2 {
-  width: 150px;
+  width: 140px;
   margin-top: 20px;
 }
 
 .editors-pick3 {
-  width: 150px;
+  width: 140px;
   margin-top: 20px;
 }
 
 .editors-pick-div {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: row;
 }
 
 .editors-pick p {
   margin-top: 40px;
+  margin-left: 10px;
 }
 
 .space-features {
@@ -508,6 +511,11 @@ aside .most-popular {
   font-size: 13px;
   height: 260px;
   align-items: baseline;
+}
+
+#more-details {
+  border-left: 1px solid rgba(0, 0, 0, 0.233);
+  padding-left: 15px;
 }
 
 .footer-list {
