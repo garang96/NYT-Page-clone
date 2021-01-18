@@ -9,7 +9,7 @@ body {
   margin: 20px;
   background-color: white;
   font-family: "Helvetica neue", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 nav {
@@ -160,7 +160,8 @@ figcaption {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-left: 6rem;
+  margin: 0 0 2rem 7.5rem;
+  width: 70%;
 }
 
 p {
@@ -173,7 +174,7 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-left: 6rem;
+  margin-left: 10rem;
 }
 
 .reaching-back-section,
@@ -185,12 +186,11 @@ p {
   margin: 20px;
 }
 
-.reaching-back-section {
-  margin-left: 6rem;
+.reaching-back-section{
+  margin-left: 10rem;
 }
-
 #gets-bigger {
-  margin-right: 26.5rem;
+  margin-right: 27rem;
 }
 
 .inflation-evidence {
@@ -368,7 +368,7 @@ iframe {
 }
 
 .sky-spirals {
-  margin-right: 27rem;
+  margin-right: 28rem;
 }
 
 .last-section {
@@ -391,7 +391,7 @@ iframe {
 }
 
 .special-time {
-  margin-right: 27rem;
+  margin-right: 28rem;
 }
 
 .read-comments {
@@ -412,8 +412,10 @@ iframe {
   color: rgba(0, 0, 0, 0.637);
   display: flex;
   flex-direction: column;
-  margin: 20px 0;
-  width: 28%;
+  margin: 30px 130px 50px 0 ;
+  width: 18%;  
+  border-top: 1px solid black;
+  padding-top: 10px;
 }
 
 a {
@@ -426,11 +428,17 @@ aside .most-popular {
   color: rgba(0, 0, 0, 0.788);
   line-height: 30px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.267);
+  font-weight: 600;
+  font-size: 12px;
+
+}
+.right p{
+  font-weight: 1000;
 }
 
 .editors-pick {
   float: right;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 .editors-pick1 {
@@ -446,6 +454,13 @@ aside .most-popular {
 .editors-pick3 {
   width: 150px;
   margin-top: 20px;
+}
+.editors-pick-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.editors-pick p {
+  margin-top: 40px;
 }
 
 .space-features {
@@ -469,21 +484,21 @@ aside .most-popular {
 }
 
 .footer-logo {
-  margin-left: 14rem;
+  margin-left: 10rem;
   border-top: 3px double rgba(0, 0, 0, 0.192);
-  padding-top: 20px;
+  padding-top: 10px;
+  margin-top: 200px;
 }
 
 .footer-div {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   list-style: none;
-  width: 70%;
-  margin: 2px 100px 20px 150px;
+  width: 80%;
+  margin: 2px 100px 20px 100px;
   padding: 20px 50px;
   font-size: 13px;
-  border-radius: 5px;
   height: 260px;
   align-items: baseline;
 }
