@@ -11,7 +11,7 @@ This is an article that was posted on a New York Times Page on March 17th 2014.
 
 ## Live Demo
 
-[NYT-Page-Clone](https://raw.githack.com/garang96/NYT-Page-clone/tree/Article-clone)
+[NYT-Page-Clone](https://rawcdn.githack.com/garang96/NYT-Page-clone/14abd1a839da9d78244d0b7ebfdab6f5ce515701/index.html)
 
 ## Authors
 
