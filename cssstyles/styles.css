@@ -186,9 +186,10 @@ p {
   margin: 20px;
 }
 
-.reaching-back-section{
+.reaching-back-section {
   margin-left: 10rem;
 }
+
 #gets-bigger {
   margin-right: 27rem;
 }
@@ -412,10 +413,10 @@ iframe {
   color: rgba(0, 0, 0, 0.637);
   display: flex;
   flex-direction: column;
-  margin: 30px 130px 50px 0 ;
-  width: 18%;  
+  margin: 30px 130px 50px 0;
   border-top: 1px solid black;
   padding-top: 10px;
+  width: 18%;
 }
 
 a {
@@ -430,9 +431,9 @@ aside .most-popular {
   border-bottom: 1px solid rgba(0, 0, 0, 0.267);
   font-weight: 600;
   font-size: 12px;
-
 }
-.right p{
+
+.right p {
   font-weight: 1000;
 }
 
@@ -455,10 +456,12 @@ aside .most-popular {
   width: 150px;
   margin-top: 20px;
 }
+
 .editors-pick-div {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
 .editors-pick p {
   margin-top: 40px;
 }
