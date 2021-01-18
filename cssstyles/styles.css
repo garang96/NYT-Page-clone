@@ -476,9 +476,14 @@ aside .most-popular {
 .space-features {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  width: 70%;
-  margin: 50px 0 30px 0;
+  width: 60%;
+  margin: 50px 0 30px 40px;
 }
+
+/*.space-feature p{
+  width: 250px;
+margin-top: 20px;
+}*/
 
 .space-feature1,
 .space-feature2,
@@ -486,11 +491,22 @@ aside .most-popular {
 .space-feature4,
 .space-feature5,
 .space-feature6 {
-  width: 300px;
+  width: 250px;
 }
 
 .space-feature {
   margin-bottom: 20px;
+}
+
+/*.breaking-news {
+  border: 1px solid rgba(0, 0, 0, 0.068);
+  margin: 10px 0 20px 10px;
+}*/
+
+.pick-image,
+.breaking {
+  width: 250px;
+  height: 200px;
 }
 
 .footer-logo {
